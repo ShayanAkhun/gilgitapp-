@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/App image/WhatsApp Image 2021-11-19 at 12.16.58 PM.jpeg" type="image/png">
+    <link rel="stylesheet" href="/OwlCarousel2-master/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="/OwlCarousel2-master/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <title>Gilgit App</title>
+</head>
+
+<body>
+    <div class="container mx-auto m-4 custom-width">
+        <div class="header flex justify-center items-center">
+            <div class="logo mr-5">
+                <img src="/App image/main-logo.9d0e157.svg" alt="gilgitApp img">
+            </div>
+
+            <div class="search flex">
+                <div class="search1 border border-black-300 rounded">
+                    <i class="fa fa-search ml-3 pt-2"></i>
+                    <label for="Gilgit" class="text-sm">Gilgit</label>
+                    <i class="fa fa-angle-down ml-40 mr-3"></i>
+                </div>
+
+                <div class="search2 border border-grey-300 rounded ml-3 text-sm ">
+                    <i class="fa fa-search ml-3 pt-2 "></i>
+                    <input type="search" class="w-80 outline-none" placeholder="find mobile,cars,Tablets..."
+                        name="search2" id="search2">
+                </div>
+                <div
+                    class="desktop bg-gray-300 rounded-full w-9 h-9 ml-5 flex justify-center items-center cursor-pointer">
+                    <i class="fa fa-desktop"></i>
+                </div>
+                <div class="signin w-12 h-9 ml-5 flex justify-center items-center cursor-pointer"><a
+                        class="signin text-gray-900" href="#">sign In</a></div>
+                <div class="sellnow"><button
+                        class="btn bg bg-black text-sm font-semi text-white ml-5 p-2 border rounded hover:bg-gray-500">Sell
+                        Now</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr class="hr-first">
+    <!------MiniNavBar start-->
+    <div class="container  p-1 flex justify-center items-center">
+        <div class="dropdown inline-block  w-auto mt-0">
+            <ul class="flex  flex-row  justify-between items-center text-sm">
+
+                <!--first dropdown cars-->
+                <div class=" car-dropdown relative "><a class="text-base font-semibold" href="#">Cars</a>
+                    <i class="fa fa-angle-down ml-1 mr-3 "></i>
+                    <div
+                        class="car-dropdown-content absolute hidden sm\:bg-white  rounded shadow-lg flex-col text-sm w-32">
+                        <ul class="dropdown-li">
+                            <li class=" bg-white hover:bg-gray-300 px-3 py-2 cursor-pointer"><a href="#">Toyota</a></li>
+                            <li class="bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="#">Suzuki</a></li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="#">Honda</a></li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="">BMW</a></li>
+                            <li class="bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="#">Nissan</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--first dropdown bikes-->
+                <div class=" car-dropdown relative "><a class="text-base font-semibold " href="#">Bikes</a>
+                    <i class="fa fa-angle-down ml-1 mr-3 "></i>
+                    <div
+                        class="car-dropdown-content absolute hidden sm\:bg-white  rounded shadow-lg flex-col text-sm w-32">
+                        <ul class="dropdown-li">
+                            <li class=" bg-white hover:bg-gray-300 px-3 py-2 cursor-pointer"><a href="#">Honda</a></li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="#">Suzuki</a></li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="#">United</a></li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="">Yamaha</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--first dropdown Laptops-->
+                <div class=" car-dropdown relative "><a class="text-base font-semibold" href="#">Laptops</a>
+                    <i class="fa fa-angle-down ml-1 mr-3 "></i>
+                    <div
+                        class="car-dropdown-content absolute hidden sm\:bg-white  rounded shadow-lg flex-col text-sm w-32">
+                        <ul class="dropdown-li">
+                            <li class="bg-white hover:bg-gray-300 px-3 py-2 cursor-pointer"><a href="#">Dell</a></li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="#">Acer</a></li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="#">Apple</a></li>
+                            <li class="bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="">Lenovo</a></li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="#">Hp</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--first dropdown Mobiles-->
+                <div class=" car-dropdown relative "><a class="text-base font-semibold" href="#">Mobiles</a>
+                    <i class="fa fa-angle-down ml-1 mr-3 "></i>
+                    <div
+                        class="car-dropdown-content absolute hidden sm\:bg-white  rounded shadow-lg flex-col text-sm w-32">
+                        <ul class="dropdown-li">
+                            <li class=" bg-white hover:bg-gray-300 px-3 py-2 cursor-pointer"><a href="#">Apple</a></li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="#">Samsung</a>
+                            </li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="#">Vivo</a></li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="">Oppo</a></li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="#">OnePlus</a>
+                            </li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="#">Infinix</a>
+                            </li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="#">Realme</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--first dropdown Property-->
+                <div class=" car-dropdown relative "><a class="text-base font-semibold" href="#">Property</a>
+                    <i class="fa fa-angle-down ml-1 mr-3 "></i>
+                    <div
+                        class="car-dropdown-content absolute hidden sm\:bg-white  rounded shadow-lg flex-col text-sm w-32">
+                        <ul class="dropdown-li">
+                            <li class=" bg-white hover:bg-gray-300 px-3 py-2 cursor-pointer"><a href="#">Home</a></li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="#">Office</a></li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="#">Plot</a></li>
+                    </div>
+                </div>
+                <!--first dropdown appliances-->
+                <div class=" car-dropdown relative "><a class="text-base font-semibold" href="#">Appliances</a>
+                    <i class="ml-1 mr-3 "></i>
+                    <div
+                        class="car-dropdown-content absolute hidden sm\:bg-white  rounded shadow-lg flex-col text-sm w-32">
+                        <ul class="dropdown-li">
+                    </div>
+                </div>
+                <!--first dropdown More-->
+                <div class=" car-dropdown relative "><a class="text-base font-semibold" href="#">More</a>
+                    <i class="fa fa-angle-down ml-1 mr-3 "></i>
+                    <div
+                        class="car-dropdown-content absolute hidden sm\:bg-white  rounded shadow-lg flex-col text-sm w-32">
+                        <ul class="dropdown-li">
+                            <li class=" bg-white hover:bg-gray-300 px-3 py-2 cursor-pointer"><a href="#">Pets</a></li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="#">Furniture</a>
+                            </li>
+                            <li class=" bg-white hover:bg-gray-200 px-3 py-2 cursor-pointer"><a href="#">Livestock</a>
+                            </li>
+                    </div>
+                </div>
+        </div>
+    </div>
+    <hr class="hr-second">
+    <!--- Slider -->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="/App image/Capture1.PNG" style="width:100%">
+            <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="/App image/Capture2.PNG" style="width:100%">
+            <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="/App image/Capture3.PNG" style="width:100%">
+            <div class="text"></div>
+        </div>
+
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    </div>
+
+
+
+    <!---Most recent items---->
+    <div class="custom-container flex justify-between">
+
+        <div>
+            <div class="last-slide">
+                <div class="img-container mt-4 border border-gray-300 rounded pl-2 pr-2 pb-3  ">
+                    <img src="/App image/bird1.PNG ">
+                    <div class="content">
+                        <p class="timer">5 Hours ago</p>
+                        <span>Birds</span>
+                        <div class="lastSeen-timer justify-around">
+                        </div>
+                    </div>
+                    <div class="content2 flex justify-between">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                            <span>Pakistan</span>
+                        </div>
+                        <div>
+                            <i class="fa fa-eye">8</i>
+                            <i class="fa fa-share-alt  ml-3"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="custom-container1">
+                <div class="last-slide">
+                    <div class="img-container mt-4 border border-gray-300 rounded pl-2 pr-2 pb-3  ">
+                        <img src="/App image/phone1.PNG">
+                        <div class="content">
+                            <p class="timer">2 Hours ago</p>
+                            <span>Iphone12 pro Master Copy</span>
+                            <div>
+                                <span>PKR 40,000</span>
+                            </div>
+                        </div>
+                        <div class="content2 flex justify-between">
+                            <div class="icon">
+                                <i class="fa fa-map-marker"></i>
+                                <span>Pakistan</span>
+                            </div>
+                            <div>
+                                <i class="fa fa-eye">118</i>
+                                <i class="fa fa-share-alt  ml-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="last-slide">
+                        <div class="img-container mt-4 border border-gray-300 rounded pl-2 pr-2 pb-3  ">
+                            <img src="/App image/tyre1.PNG">
+                            <div class="content">
+                                <p class="timer">15 Hours ago</p>
+                                <span>Tyres</span>
+                                <div>
+                                    <span>PKR 25,000</span>
+                                </div>
+                            </div>
+                            <div class="content2 flex justify-between">
+                                <div class="icon">
+                                    <i class="fa fa-map-marker"></i>
+                                    <span>Pakistan</span>
+                                </div>
+                                <div>
+                                    <i class="fa fa-eye">8</i>
+                                    <i class="fa fa-share-alt  ml-3"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- side bar start here -->
+        <div class="continer-sidebar">
+            <div class="" style="z-index: -1 ;">
+                <div class=" sticky top-0 ">
+                    <div class="flex-column">
+                        <h2 class="font-semibold mb-10 pt-5 mt-10">Near you</h2>
+                        <div class="flex w-96   border-2 rounded-md p-1">
+                            <img src="/App image/iphone.PNG " class="w-36  p-2  rounded-xl" alt="">
+                            <div class="pl-5">
+                                <div class="flex">
+                                    <h3 class="font-semibold text-l pr-10  mt-2">Iphone 12</h3>
+                                    <span class="mt-3 text-sm">5 hours ago </span>
+                                </div>
+                                <div class="">
+                                    <h4 class="  text-l">150,000</h4>
+                                    <div class="flex">
+                                        <i class="fa fa-map-marker mt-3 opacity-50 pr-1 "></i>
+                                        <p class=" mt-2">Gilgit-Baltistan</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" pt-2">
+                        <div class="flex w-96    border-2 rounded-md p-1">
+                            <img src="/App image/macbook.PNG" class="w-36  h-24 p-2  rounded-xl" alt="">
+                            <div class="pl-5">
+                                <div>
+                                    <div class="flex">
+                                        <h3 class="font-semibold text-l pr-16  mt-2">Macbook Pro </h3>
+                                        <span class="mt-3 text-sm">5 days ago </span>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <h4 class="  text-l">250,000 </h4>
+                                    <div class="flex">
+                                        <i class="fa fa-map-marker mt-3 opacity-50 pr-1 "></i>
+                                        <p class=" mt-2">Dar Plaza Gilgit</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" pt-2">
+                        <div class="flex w-96    border-2 rounded-md p-1">
+                            <img src="/App image/Surf.PNG " class="w-36 h-24 p-2  rounded-xl" alt="">
+                            <div class="pl-5">
+                                <div>
+                                    <div class="flex">
+                                        <h3 class="font-semibold text-l pr-10  mt-2">Toyota Tz </h3>
+                                        <span class="mt-3 text-sm">1 month ago </span>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <h4 class="  text-l">14,0000 </h4>
+                                    <div class="flex">
+                                        <i class="fa fa-map-marker mt-3 opacity-50 pr-1 "></i>
+                                        <p class=" mt-2">Gilgit-Baltistan</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" pt-2">
+                        <div class="flex w-96    border-2 rounded-md p-1">
+                            <img src="/App image/infinix.PNG " class="w-36 h-24 p-2  rounded-xl" alt="">
+                            <div class="pl-5">
+                                <div>
+                                    <div class="flex">
+                                        <h3 class="font-semibold text-l pr-10  mt-2">Infinix NOTE 8i</h3>
+                                        <span class="mt-3 text-sm"> 1 days ago </span>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <h4 class="  text-l">25,000</h4>
+                                    <div class="flex">
+                                        <i class="fa fa-map-marker mt-3 opacity-50 pr-1 "></i>
+                                        <p class=" mt-2">Barmas Gilgit</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" pt-2">
+                        <div class="flex w-96    border-2 rounded-md p-1">
+                            <img src="/App image/delux.PNG" class="w-36 h-24 p-2  rounded-xl" alt="">
+                            <div class="pl-5">
+                                <div>
+                                    <div class="flex">
+                                        <h3 class="font-semibold text-l pr-10  mt-2">Honda Delux</h3>
+                                        <span class="mt-3 text-sm">12 days ago </span>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <h4 class="text-l">140,000</h4>
+                                    <div class="flex">
+                                        <i class="fa fa-map-marker mt-3 opacity-50 pr-1 "></i>
+                                        <p class=" mt-2">Kashrote Gilgit</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imagess">
+                        <div>
+                            <img src="/App image/download.PNG" alt="">
+                        </div>
+                        <div>
+                            <img src="/App image/google.PNG" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- footer selection start here -->
+    <footer>
+        <div class="container m-auto flex justify-between mt-10">
+            <div class=" flex flex-col justify-between">
+                <img src="/App image/gilgitapp.PNG" alt="#">
+                <div class="flex justify-between">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+            <div>
+                <h2 class="font-semibold text-lg">Categories</h2>
+                <ul class="list-items">
+                    <li class="list-item">
+                        <a href="#" class="item-link">Vehicles</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="item-link">Bikes</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="item-link">Properties</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="item-link">Mobile</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="item-link">Laptop</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="item-link">Appliance</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="item-link">Furniture</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="item-link">Stationary</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="item-link">pets</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2 class="font-semibold text-lg">Trending Searches</h2>
+                <ul class="list-items">
+                    <li class="list-item">
+                        <a href="#" class="item-link">Iphone</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="item-link">Vivo</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="item-link">Redme</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="item-link">Honda</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="item-link">Toyota</a>
+                </ul>
+            </div>
+            <div>
+                <h2 class="font-semibold text-lg">Popular</h2>
+                <ul class="list-items">
+                    <li class="list-item">
+                        <a href="#" class="item-link">Permio</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="item-link">Vitz</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="item-link">Honda</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="item-link">Plots</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div class="bottom-footer  mb-5 pt-10">
+        <div class="container m-auto flex justify-center border-t-2 pt-2">
+            <p>Copyright © 2021 GilgitApp. All Right
+                Reserved. </p>
+            <span class="pl-12 text-blue-600">Privacy Police</span>
+            <span class="pl-5 text-blue-600"> Terms & Conditions</span>
+        </div>
+    </div>
+    <!-- footer end here -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/OwlCarousel2-master/dist/owl.carousel.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
